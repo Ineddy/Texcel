@@ -184,9 +184,19 @@ namespace Texcel_TabControl
         private void dgvEmployes_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
             //Test
+            lblNom.Text = "Testtttt";
 
+            /*
+            List<string[]> listeEmployes = dbprovider.listeDesEmployes();
+            int index = e.RowIndex;
+            MessageBox.Show(index.ToString());
+            lblNom.Text = index.ToString() ;
+            */
+        }
 
-            //lblNom.Text = dgvEmployes.Rows;
+        private void dgvEmployes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -60,6 +60,11 @@
             this.lblBienvenue = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabEmployes = new System.Windows.Forms.TabPage();
+            this.lblNom = new System.Windows.Forms.Label();
+            this.dgvEmployes = new System.Windows.Forms.DataGridView();
+            this.NoEmployé = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prenom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnFormerEquipe = new System.Windows.Forms.Button();
             this.btnCreerEmploye = new System.Windows.Forms.Button();
             this.lblEmploye = new System.Windows.Forms.Label();
@@ -67,11 +72,6 @@
             this.bdTexcelDataSet = new Texcel_TabControl.BdTexcelDataSet();
             this.tblSEBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tblSETableAdapter = new Texcel_TabControl.BdTexcelDataSetTableAdapters.tblSETableAdapter();
-            this.dgvEmployes = new System.Windows.Forms.DataGridView();
-            this.NoEmployé = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.prenom = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lblNom = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControlFonctionnalites.SuspendLayout();
             this.tabTableauDeBord.SuspendLayout();
@@ -80,10 +80,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvListeJeux)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabEmployes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogoTexcel3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bdTexcelDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblSEBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployes)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -412,6 +412,48 @@
             this.tabEmployes.Text = "Employés";
             this.tabEmployes.UseVisualStyleBackColor = true;
             // 
+            // lblNom
+            // 
+            this.lblNom.AutoSize = true;
+            this.lblNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNom.Location = new System.Drawing.Point(606, 145);
+            this.lblNom.Name = "lblNom";
+            this.lblNom.Size = new System.Drawing.Size(67, 20);
+            this.lblNom.TabIndex = 6;
+            this.lblNom.Text = "lblNom";
+            // 
+            // dgvEmployes
+            // 
+            this.dgvEmployes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEmployes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.NoEmployé,
+            this.prenom,
+            this.Column1});
+            this.dgvEmployes.Location = new System.Drawing.Point(95, 145);
+            this.dgvEmployes.Name = "dgvEmployes";
+            this.dgvEmployes.RowTemplate.Height = 24;
+            this.dgvEmployes.Size = new System.Drawing.Size(416, 333);
+            this.dgvEmployes.TabIndex = 5;
+            this.dgvEmployes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmployes_CellContentClick);
+            // 
+            // NoEmployé
+            // 
+            this.NoEmployé.HeaderText = "No Employé";
+            this.NoEmployé.Name = "NoEmployé";
+            this.NoEmployé.Width = 90;
+            // 
+            // prenom
+            // 
+            this.prenom.HeaderText = "Nom";
+            this.prenom.Name = "prenom";
+            this.prenom.Width = 140;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Prénom";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 140;
+            // 
             // btnFormerEquipe
             // 
             this.btnFormerEquipe.Location = new System.Drawing.Point(398, 493);
@@ -464,47 +506,6 @@
             // 
             this.tblSETableAdapter.ClearBeforeFill = true;
             // 
-            // dgvEmployes
-            // 
-            this.dgvEmployes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEmployes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.NoEmployé,
-            this.prenom,
-            this.Column1});
-            this.dgvEmployes.Location = new System.Drawing.Point(95, 145);
-            this.dgvEmployes.Name = "dgvEmployes";
-            this.dgvEmployes.RowTemplate.Height = 24;
-            this.dgvEmployes.Size = new System.Drawing.Size(416, 333);
-            this.dgvEmployes.TabIndex = 5;
-            // 
-            // NoEmployé
-            // 
-            this.NoEmployé.HeaderText = "No Employé";
-            this.NoEmployé.Name = "NoEmployé";
-            this.NoEmployé.Width = 90;
-            // 
-            // prenom
-            // 
-            this.prenom.HeaderText = "Nom";
-            this.prenom.Name = "prenom";
-            this.prenom.Width = 140;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Prénom";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 140;
-            // 
-            // lblNom
-            // 
-            this.lblNom.AutoSize = true;
-            this.lblNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNom.Location = new System.Drawing.Point(606, 145);
-            this.lblNom.Name = "lblNom";
-            this.lblNom.Size = new System.Drawing.Size(67, 20);
-            this.lblNom.TabIndex = 6;
-            this.lblNom.Text = "lblNom";
-            // 
             // frmTexcel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -533,10 +534,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabEmployes.ResumeLayout(false);
             this.tabEmployes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureLogoTexcel3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bdTexcelDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblSEBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
