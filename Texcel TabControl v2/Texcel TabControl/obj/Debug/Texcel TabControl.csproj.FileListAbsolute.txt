@@ -34,6 +34,7 @@ C:\Users\utilisateur\Documents\Visual Studio 2015\Projects\Texcel TabControl v2\
 C:\Users\utilisateur\Documents\Visual Studio 2015\Projects\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel_TabControl.frmTexcel.resources
 C:\Users\utilisateur\Documents\Visual Studio 2015\Projects\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel_TabControl.Properties.Resources.resources
 C:\Users\utilisateur\Documents\Visual Studio 2015\Projects\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel TabControl.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\utilisateur\Documents\TexcelGit\Texcel\Texcel TabControl v2\Texcel TabControl\bin\Debug\Texcel TabControl.exe.config
 C:\Users\utilisateur\Documents\TexcelGit\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel TabControl.exe
 C:\Users\utilisateur\Documents\TexcelGit\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel TabControl.pdb
@@ -46,3 +47,17 @@ C:\Users\utilisateur\Documents\TexcelGit\Texcel\Texcel TabControl v2\Texcel TabC
 C:\Users\utilisateur\Documents\TexcelGit\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel_TabControl.frmTexcel.resources
 C:\Users\utilisateur\Documents\TexcelGit\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel_TabControl.Properties.Resources.resources
 C:\Users\utilisateur\Documents\TexcelGit\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel TabControl.csproj.GenerateResource.Cache
+=======
+C:\Users\utilisateur\Desktop\Texcel\Texcel TabControl v2\Texcel TabControl\bin\Debug\Texcel TabControl.exe.config
+C:\Users\utilisateur\Desktop\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel TabControl.exe
+C:\Users\utilisateur\Desktop\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel TabControl.pdb
+C:\Users\utilisateur\Desktop\Texcel\Texcel TabControl v2\Texcel TabControl\bin\Debug\Texcel TabControl.exe
+C:\Users\utilisateur\Desktop\Texcel\Texcel TabControl v2\Texcel TabControl\bin\Debug\Texcel TabControl.pdb
+C:\Users\utilisateur\Desktop\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel TabControl.csprojResolveAssemblyReference.cache
+C:\Users\utilisateur\Desktop\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel_TabControl.creerJeu.resources
+C:\Users\utilisateur\Desktop\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel_TabControl.creerPlateforme.resources
+C:\Users\utilisateur\Desktop\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel_TabControl.creerSE.resources
+C:\Users\utilisateur\Desktop\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel_TabControl.frmTexcel.resources
+C:\Users\utilisateur\Desktop\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel_TabControl.Properties.Resources.resources
+C:\Users\utilisateur\Desktop\Texcel\Texcel TabControl v2\Texcel TabControl\obj\Debug\Texcel TabControl.csproj.GenerateResource.Cache
+>>>>>>> origin/master

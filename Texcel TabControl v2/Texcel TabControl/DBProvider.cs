@@ -10,7 +10,7 @@ namespace Texcel_TabControl
 {
     class DBProvider
     {
-        SqlConnection ctn = new SqlConnection("Server=INFO-324-1A-122\\INSTANCE;Database=BdTexcel;Integrated Security=true");
+        SqlConnection ctn = new SqlConnection("Server=localhost\\SQLEXPRESS;Database=BdTexcel;Integrated Security=true");
 
         SqlCommand cmd;
         SqlDataReader lecteur;
